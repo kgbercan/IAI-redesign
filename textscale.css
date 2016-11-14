@@ -1,0 +1,30 @@
+/* adapted from http://www.bootply.com/hh32Z5yvNt */
+
+p, span{
+   font-size: 1.2em;
+}
+
+/* responsive text queries */
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+}

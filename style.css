@@ -1,0 +1,76 @@
+/*
+font-family: 'Amaranth', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+https://coolors.co/721121-a5402d-f15156-ffc07f-ffcf99
+
+   header
+   ------
+      bg: #e8edf3
+      text: #22264b
+      highlight: #22264b
+*/
+
+body{
+   font-family: "Titillium Web", sans-serif;
+}
+
+.container{
+   border: 1px solid #e8edf3;
+}
+
+h1, h3, h5{
+   font-family: "Amaranth", sans-serif;
+}
+
+h2, h4, h6{
+   font-family: "Titillium Web", sans-serif;
+}
+
+h3, h4{
+   font-style: italic;
+}
+
+a{
+   color: #b56969;
+}
+
+#header{
+   background-color: #e8edf3;
+   color: #22264b;
+   text-align: center;
+}
+
+#nav{
+   margin: 1%;
+   padding: 1%;
+   text-align: center;
+   color: #22264b;
+   font-weight: bold;
+   text-transform: uppercase;
+   border-bottom: 1px solid #e8edf3;
+}
+
+.nav-button{
+   margin: 1%;
+   padding: 2% 4%;
+}
+
+.col-lg-12{
+   padding: inherit;
+}
+
+.section-header{
+   margin-left: 1%;
+   margin-bottom: .25%;
+   padding-right: 1%;
+   /*background-color: #e8edf3;*/
+   border-bottom: 3px solid #e6cf8b;
+   color: #22264b;
+}
+
+.section-content{
+   padding: 1%;
+   margin-left: 1%;
+   border-left: 3px solid #b56969;
+   border-top: 3px solid #b56969;
+}
